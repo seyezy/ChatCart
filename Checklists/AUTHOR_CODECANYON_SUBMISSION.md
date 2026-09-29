@@ -1,0 +1,17 @@
+# ChatCart CodeCanyon Author Checklist
+- [ ] `flutter analyze` returns no errors/warnings
+- [ ] Flutter tests pass
+- [ ] Development APK builds
+- [ ] Staging APK builds
+- [ ] Production AAB builds with proper signing
+- [ ] iOS schemes/bundle IDs validated on macOS if iOS is advertised
+- [ ] `composer install` succeeds from clean checkout
+- [ ] Laravel migrations/seeds pass
+- [ ] Laravel tests and Pint check pass
+- [ ] Installer tested on a clean database
+- [ ] No real `.env`, Firebase service account or signing secrets included
+- [ ] All demo/preview URLs are real and working
+- [ ] Actual app/admin screenshots included
+- [ ] Presentation claims verified
+- [ ] Third-party asset licenses/credits reviewed
+- [ ] Product name/trademark clearance completed

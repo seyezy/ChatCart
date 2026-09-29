@@ -1,0 +1,3 @@
+PRODUCT_BUNDLE_IDENTIFIER=com.chatcart.app
+APP_DISPLAY_NAME=ChatCart
+FLUTTER_TARGET=lib/main.dart

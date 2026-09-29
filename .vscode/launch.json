@@ -1,0 +1,41 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Development",
+            "request": "launch",
+            "cwd": "${workspaceFolder}/Flutter_App",
+            "flutterMode": "debug",
+            "type": "dart",
+            "toolArgs": [
+                "--flavor",
+                "development"
+            ],
+            "program": "${workspaceFolder}/Flutter_App/lib/main_development.dart"
+        },
+        {
+            "name": "Staging",
+            "request": "launch",
+            "cwd": "${workspaceFolder}/Flutter_App",
+            "flutterMode": "debug",
+            "type": "dart",
+            "toolArgs": [
+                "--flavor",
+                "staging"
+            ],
+            "program": "${workspaceFolder}/Flutter_App/lib/main_staging.dart"
+        },
+        {
+            "name": "Production",
+            "request": "launch",
+            "cwd": "${workspaceFolder}/Flutter_App",
+            "flutterMode": "debug",
+            "type": "dart",
+            "toolArgs": [
+                "--flavor",
+                "production"
+            ],
+            "program": "${workspaceFolder}/Flutter_App/lib/main_production.dart"
+        }
+    ]
+}

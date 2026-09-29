@@ -1,0 +1,2 @@
+<?php
+namespace App\Http\Middleware; use App\Models\Admin; use Closure; use Illuminate\Http\Request; use Symfony\Component\HttpFoundation\Response; class AdminPermissionMiddleware { public function handle(Request $request,Closure $next,string $permission):Response{$id=$request->session()->get('admin_id');$admin=$id?Admin::find($id):null;abort_unless($admin&&$admin->hasPermission($permission),403,'Permission denied.');return $next($request);} }

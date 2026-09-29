@@ -1,0 +1,13 @@
+# Buyer Setup Checklist
+- [ ] Choose development, staging or production environment
+- [ ] Configure matching Firebase project
+- [ ] Configure `Flutter_App/.env.<flavor>` public values
+- [ ] Install Laravel dependencies with Composer
+- [ ] Configure Laravel `.env` and MySQL
+- [ ] Keep Firebase service-account JSON outside web root
+- [ ] Run Laravel migrations and seeds
+- [ ] Set API URL in matching Flutter `.env`
+- [ ] Configure Android/iOS IDs and production signing
+- [ ] Deploy Firebase rules
+- [ ] Test chat, marketplace, checkout, notifications and admin workflows
+- [ ] Enable HTTPS before production

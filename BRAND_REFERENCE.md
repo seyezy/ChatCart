@@ -1,0 +1,3 @@
+# Approved ChatCart brand reference
+
+The buyer-provided image is the authoritative logo. The reference PNGs are cropped directly from that image (the grey screenshot controls are excluded). `chatcart-logo.svg` and `chatcart-wordmark.svg` embed the reference PNGs to preserve exact appearance; **these are not independently editable vector paths**. To obtain editable paths, manually trace the supplied original in Figma/Illustrator and have the buyer approve the result. Do not replace the bag/chat icon with a different symbol. The white-backed approved artwork is also used in the dark presentation rather than recoloring it.

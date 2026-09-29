@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Keep the complete logo inside the adaptive icon safe area. -->
+    <item android:width="44.54dp" android:height="54dp" android:gravity="center">
+        <bitmap android:src="@drawable/chatcart_logo" android:gravity="fill" android:filter="true" />
+    </item>
+</layer-list>

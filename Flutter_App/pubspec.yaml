@@ -1,0 +1,38 @@
+name: chatcart_ui
+publish_to: 'none'
+description: ChatCart Flutter chat + marketplace app with Firebase realtime services and Laravel API backend.
+version: 1.0.0+1
+environment:
+  sdk: '>=3.6.0 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  google_fonts: ^6.2.1
+  flutter_svg: ^2.0.10+1
+  firebase_core: ^4.13.0
+  firebase_auth: ^6.5.7
+  cloud_firestore: ^6.8.0
+  firebase_storage: ^13.4.6
+  firebase_database: ^12.4.7
+  image_picker: ^1.2.2
+  uuid: ^4.6.0
+  shared_preferences: 2.5.3
+  http: ^1.5.0
+  firebase_messaging: ^16.5.0
+  flutter_dotenv: ^5.2.1
+  flutter_bloc: 9.1.1
+  bloc_concurrency: 0.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/branding/chatcart-logo.svg
+    - assets/branding/chatcart-wordmark.svg
+    - .env.development
+    - .env.staging
+    - .env.production

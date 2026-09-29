@@ -1,0 +1,65 @@
+# Local runtime, credentials and machine-specific configuration
+/.local/
+**/.env
+**/.env.*
+!**/.env.example
+!**/.env.*.example
+**/google-services.json
+**/GoogleService-Info*.plist
+**/*firebase-adminsdk*.json
+**/*service-account*.json
+**/*serviceAccount*.json
+**/*.pem
+**/*.key
+**/*.jks
+**/*.keystore
+**/key.properties
+**/local.properties
+**/*.log
+**/.DS_Store
+**/Thumbs.db
+**/.idea/
+**/*.iml
+
+# Flutter / Android / Apple generated output
+/Flutter_App/.dart_tool/
+/Flutter_App/build/
+/Flutter_App/.flutter-plugins*
+/Flutter_App/android/.gradle/
+/Flutter_App/android/.kotlin/
+**/Pods/
+**/.symlinks/
+**/Flutter/ephemeral/
+**/Flutter/Generated.xcconfig
+**/Flutter/flutter_export_environment.sh
+**/GeneratedPluginRegistrant.*
+**/*.apk
+**/*.aab
+**/*.ipa
+
+# Downloaded dependencies and generated web output
+**/vendor/
+**/node_modules/
+/Laravel_Backend/public/build/
+/Flutter_App/functions/lib/
+
+# Laravel runtime data and caches (keep empty directories)
+/Laravel_Backend/bootstrap/cache/*
+!/Laravel_Backend/bootstrap/cache/.gitignore
+/Laravel_Backend/storage/app/*
+!/Laravel_Backend/storage/app/.gitignore
+/Laravel_Backend/storage/framework/*
+!/Laravel_Backend/storage/framework/.gitignore
+/Laravel_Backend/storage/logs/*
+!/Laravel_Backend/storage/logs/.gitignore
+/Laravel_Backend/public/storage
+**/*.sqlite
+**/*.sqlite3
+**/*.sqlite-journal
+**/*.sqlite-wal
+**/*.sqlite-shm
+
+# Machine-specific testing notes
+/LOCAL_TESTING.md
+!/Laravel_Backend/storage/framework/**/
+!/Laravel_Backend/storage/framework/**/.gitignore

@@ -1,0 +1,7 @@
+{
+  "name": "ChatCart UI Generator",
+  "id": "chatcart-ui-generator-local",
+  "api": "1.0.0",
+  "main": "code.js",
+  "editorType": ["figma"]
+}
